@@ -1,0 +1,11 @@
+[template]
+name = "my-rust-template"
+description = "A template for creating a new Rust project with custom settings"
+#include = ["Cargo.toml", "src", ".gitignore", "README.md"]
+exclude = ["target", ".git"]
+
+[placeholders]
+# Define the placeholders once
+#project-name = "my-new-project"
+#author = "Your Name <you@example.com>"
+#description = "A description of your new Rust project"
