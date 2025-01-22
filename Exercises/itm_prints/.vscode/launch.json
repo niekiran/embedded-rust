@@ -1,0 +1,26 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Cortex Debug",
+            "cwd": "${workspaceFolder}",
+            "executable": "${workspaceFolder}/target/thumbv7em-none-eabihf/debug/itm-prints",
+            "request": "launch",
+            "type": "cortex-debug",
+            "runToEntryPoint": "main",
+            "postLaunchCommands": [
+                "monitor reset",      // Resets the target
+               // "disconnect",         // Disconnects from the target
+               // "quit"                // Exits GDB
+            ],
+            "servertype": "stlink",
+            "svdFile": "C:\\ST\\STM32CubeCLT_1.16.0\\STMicroelectronics_CMSIS_SVD\\STM32F303.svd",
+            "device": "STM32F303",
+            "preLaunchTask": "rust: cargo build[MCU]",
+            "showDevDebugOutput": "raw",  
+        }
+    ]
+}
