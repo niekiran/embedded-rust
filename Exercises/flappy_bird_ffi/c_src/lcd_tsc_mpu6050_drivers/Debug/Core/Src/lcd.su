@@ -1,0 +1,9 @@
+../Core/Src/lcd.c:16:6:lcd_register_driver	16	static
+../Core/Src/lcd.c:20:6:display_init	8	static
+../Core/Src/lcd.c:25:6:display_write_string	40	static
+../Core/Src/lcd.c:38:6:display_write_char	40	static
+../Core/Src/lcd.c:44:6:display_draw_image	32	static
+../Core/Src/lcd.c:50:6:display_fill_screen	16	static
+../Core/Src/lcd.c:56:6:display_draw_pixel	16	static
+../Core/Src/lcd.c:62:6:display_set_orientation	16	static
+../Core/Src/lcd.c:68:6:display_fill_rectangle	32	static

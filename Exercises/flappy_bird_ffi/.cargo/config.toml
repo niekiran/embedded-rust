@@ -1,0 +1,12 @@
+[build]
+target = "thumbv7em-none-eabihf"
+
+[target.thumbv7em-none-eabihf]
+linker = "arm-none-eabi-gcc"
+rustflags = [
+    "-C", "link-arg=-Tc_src/lcd_tsc_mpu6050_drivers/STM32F303CCTX_FLASH.ld",
+    "-C", "link-arg=-mcpu=cortex-m4",
+    "-C", "link-arg=-mthumb",
+    "-C", "link-arg=-mfpu=fpv4-sp-d16",
+    "-C", "link-arg=-mfloat-abi=hard",
+ ]

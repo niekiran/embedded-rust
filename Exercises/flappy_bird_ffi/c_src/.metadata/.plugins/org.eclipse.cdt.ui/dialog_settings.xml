@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="LastUsedHeaderTemplate" value="Default C header template"/>
+	<item key="LastUsedSourceTemplate" value="Default C source template"/>
+	<section name="completion_proposal_size">
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration">
+	</section>
+	<section name="PDOMSearchPage">
+	</section>
+	<section name="CResourceRenameRefactoringInputPage">
+		<item key="updateReferences" value="true"/>
+	</section>
+	<section name="org.eclipse.cdt.ui.text.hover.CMacroExpansionExploration.internal">
+		<item key="size.width" value="512"/>
+		<item key="size.height" value="180"/>
+	</section>
+</section>

@@ -1,0 +1,7 @@
+{
+    "cortex-debug.variableUseNaturalFormat": true,
+    "files.associations": {
+        "mpu6050.h": "c",
+        "main.h": "c"
+    }
+}

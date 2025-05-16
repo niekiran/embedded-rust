@@ -1,0 +1,13 @@
+[package]
+name = "flappy-bird-ffi"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+panic-halt = "*"
+cortex-m = "0.7.7"
+
+
+[build-dependencies]
+cc = "1.0"
+

@@ -1,0 +1,84 @@
+Configuration	lcd_tsc_mpu6050_drivers
+STM32CubeMX 	6.12.0
+Date	02/19/2025
+MCU	STM32F303CCTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+13	PA3	GPIO_Output	LCD_CSX
+14	PA4	GPIO_Output	LCD_BL_A
+19	PB1	GPIO_Output	LCD_DCX
+21	PB10	GPIO_Output	LCD_DATA7
+22	PB11	GPIO_Output	LCD_DATA6
+25	PB12	GPIO_Output	LCD_DATA5
+26	PB13	GPIO_Output	LCD_DATA4
+27	PB14	GPIO_Output	LCD_DATA3
+28	PB15	GPIO_Output	LCD_DATA2
+30	PA9	GPIO_Output	LCD_DATA1
+31	PA10	GPIO_Output	LCD_DATA0
+38	PA15	GPIO_Output	LCD_WRX
+40	PB4	GPIO_Output	TP_RST
+41	PB5	GPIO_EXTI5	TP_INT
+42	PB6	I2C1_SCL	MPU6050_TSC_SCL
+43	PB7	I2C1_SDA	MPU6050_TSC_SDA
+45	PB8	GPIO_Output	LCD_RESET
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+13	PA3	GPIO_Output	LCD_CSX
+14	PA4	GPIO_Output	LCD_BL_A
+19	PB1	GPIO_Output	LCD_DCX
+21	PB10	GPIO_Output	LCD_DATA7
+22	PB11	GPIO_Output	LCD_DATA6
+25	PB12	GPIO_Output	LCD_DATA5
+26	PB13	GPIO_Output	LCD_DATA4
+27	PB14	GPIO_Output	LCD_DATA3
+28	PB15	GPIO_Output	LCD_DATA2
+30	PA9	GPIO_Output	LCD_DATA1
+31	PA10	GPIO_Output	LCD_DATA0
+38	PA15	GPIO_Output	LCD_WRX
+40	PB4	GPIO_Output	TP_RST
+41	PB5	GPIO_EXTI5	TP_INT
+42	PB6	I2C1_SCL	MPU6050_TSC_SCL
+43	PB7	I2C1_SDA	MPU6050_TSC_SDA
+45	PB8	GPIO_Output	LCD_RESET
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : lcd_tsc_mpu6050_drivers
+Project Folder : D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F3 V1.11.5
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

@@ -1,0 +1,15 @@
+../Core/Src/gc9a01a.c:25:13:gc9a01a_init	1
+../Core/Src/gc9a01a.c:45:13:gc9a01a_write_string	5
+../Core/Src/gc9a01a.c:90:13:gc9a01a_write_char	4
+../Core/Src/gc9a01a.c:120:13:gc9a01a_draw_image	6
+../Core/Src/gc9a01a.c:145:13:gc9a01a_fill_screen	1
+../Core/Src/gc9a01a.c:157:13:gc9a01a_draw_pixel	3
+../Core/Src/gc9a01a.c:176:13:gc9a01a_set_orientation	3
+../Core/Src/gc9a01a.c:220:13:gc9a01a_hw_reset	1
+../Core/Src/gc9a01a.c:234:13:gc9a01a_configure	1
+../Core/Src/gc9a01a.c:542:13:gc9a01a_fill_rect	7
+../Core/Src/gc9a01a.c:567:13:gc9a01a_set_address_window	1
+../Core/Src/gc9a01a.c:598:13:gc9a01a_write_cmd	1
+../Core/Src/gc9a01a.c:610:13:gc9a01a_write_data	2
+../Core/Src/gc9a01a.c:624:13:gc9a01a_invert_colors	2
+../Core/Src/gc9a01a.c:636:13:gc9a01a_lcd_fill_image	1

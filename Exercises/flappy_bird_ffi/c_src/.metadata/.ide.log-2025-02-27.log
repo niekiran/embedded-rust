@@ -1,0 +1,39 @@
+2025-03-01 10:44:19,828 [INFO] Gpio:277 - dependency for GPIO [I2C1]
+2025-03-01 10:44:40,115 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 809132384 Bytes (1073741824)
+2025-03-01 10:45:43,828 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 715181976 Bytes (1073741824)
+2025-03-01 10:45:44,949 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 742901688 Bytes (1073741824)
+2025-03-01 10:45:48,183 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 804662544 Bytes (1073741824)
+2025-03-01 10:45:48,740 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-03-01 10:45:48,740 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-03-01 10:45:48,740 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-03-01 10:45:48,740 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-03-01 10:45:48,740 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-03-01 10:45:48,766 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.16.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.12.0.202406281431\\db\
+2025-03-01 10:45:49,183 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\MXTmpFiles\license.tmp_save
+2025-03-01 10:45:49,678 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\MXTmpFiles\license.tmp
+2025-03-01 10:45:50,259 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\MXTmpFiles\gpio.tmp_save
+2025-03-01 10:45:50,473 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\MXTmpFiles\gpio.tmp
+2025-03-01 10:45:50,938 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Src\stm32f3xx_it.c_save
+2025-03-01 10:45:51,504 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Src\stm32f3xx_it.c
+2025-03-01 10:45:51,564 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Inc\stm32f3xx_it.h_save
+2025-03-01 10:45:51,751 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Inc\stm32f3xx_it.h
+2025-03-01 10:45:51,843 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Src\stm32f3xx_hal_msp.c_save
+2025-03-01 10:45:52,145 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Src\stm32f3xx_hal_msp.c
+2025-03-01 10:45:52,168 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\MXTmpFiles\system.tmp_save
+2025-03-01 10:45:52,349 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\MXTmpFiles\system.tmp
+2025-03-01 10:45:52,425 [INFO] CodeEngine:311 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Inc\stm32f3xx_hal_conf.h_save
+2025-03-01 10:45:52,595 [INFO] CodeEngine:335 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Inc\stm32f3xx_hal_conf.h
+2025-03-01 10:45:52,726 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Inc\main.h_save
+2025-03-01 10:45:52,916 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Inc\main.h
+2025-03-01 10:45:53,011 [INFO] CodeEngine:255 - oldGeneratedFile, D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Src\main.c_save
+2025-03-01 10:45:53,234 [INFO] CodeEngine:279 - Generated code: D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\c_src\lcd_tsc_mpu6050_drivers\Core\Src\main.c
+2025-03-01 10:45:54,418 [INFO] ProjectBuilder:3249 - Time for Copy HAL[1] : 719mS.
+2025-03-01 10:45:54,427 [INFO] ProjectBuilder:4828 - Project Generator version: 4.4.0-B60
+2025-03-01 10:45:54,568 [INFO] ConfigFileManager:1531 - The Die is : DIE422
+2025-03-01 10:45:54,593 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-03-01 10:45:54,612 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-03-01 10:45:54,644 [INFO] ApiDbMcu:508 - Load IP Config File for TOUCHSENSING
+2025-03-01 10:45:54,669 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2025-03-01 10:46:01,327 [INFO] ProjectBuilder:5097 - Time for Generating toolchain IDE Files: 6900mS.
+2025-03-01 10:46:01,328 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 1mS.
+2025-03-01 10:46:01,330 [INFO] ProjectBuilder:3107 - Time for Copy CMSIS : 0mS.

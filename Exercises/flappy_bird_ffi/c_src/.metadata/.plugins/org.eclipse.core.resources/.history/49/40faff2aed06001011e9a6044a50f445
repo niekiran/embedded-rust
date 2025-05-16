@@ -1,0 +1,132 @@
+/*
+ * obstacle.c
+ *
+ *  Created on: Apr 25, 2024
+ *      Author: Shreyas Acharya, BHARATI SOFTWARE
+ */
+
+#include "obstacle.h"
+#include "background.h"
+#include <stdlib.h>
+#include "main.h"
+
+/**
+  * @brief  Generate the height of the obstacle.
+  * @retval The height of the obstacle.
+  */
+uint16_t generate_obstacle_height() {
+  uint16_t top_obstacle_height = 0;
+	// Generate random top_obstacle_height if it's not set yet or x_start is 240
+	if ( obstacle.x == 240) {
+		top_obstacle_height = rand() % (90 + 1);
+		return top_obstacle_height;
+	} else {
+	  return obstacle.h;
+	}
+}
+
+/**
+  * @brief  Generate the gap for the obstacle.
+  * @retval The gap of the obstacle.
+  */
+uint16_t generate_obstacle_gap() {
+  uint16_t obstacle_gap = 0;
+  // Generate random obstacle_gap if it's not set yet or x_start is 240
+  if ( obstacle.x == 240) {
+    uint16_t valid_gap  = OBSTACLE_yEND_POINT - OBSTACLE_ySTART_POINT - obstacle.h;
+    obstacle_gap = rand() % (valid_gap + 1) + MIN_OBSTACLE_GAP;
+    return obstacle_gap;
+  } else {
+    return obstacle.g;
+  }
+}
+
+/**
+  * @brief  Display the obstacle on the LCD.
+  * @param  x_start: Starting position of the obstacle.
+  * @retval None
+  */
+void display_obstacle() {
+
+#ifdef OBSTACLE_SHADES
+  gc9a01a_fill_rect(obstacle.x,3, obstacle.y, obstacle.h-2, OBSTACLE_SHADE_1);
+  gc9a01a_fill_rect(obstacle.x,3,(bottom_obstacle_ystart+2),(bottom_obstacle_height-2), OBSTACLE_SHADE_1);
+
+  gc9a01a_fill_rect(obstacle.x,obstacle.w,( obstacle.h+obstacle.y-2),2, OBSTACLE_SHADE_1);
+  gc9a01a_fill_rect(obstacle.x,obstacle.w,bottom_obstacle_ystart,2, OBSTACLE_SHADE_1);
+
+  gc9a01a_fill_rect(obstacle.x+3,2,obstacle.y, obstacle.h-2, OBSTACLE_SHADE_2);
+  gc9a01a_fill_rect(obstacle.x+3,2,(bottom_obstacle_ystart+2),(bottom_obstacle_height-2), OBSTACLE_SHADE_2);
+
+  gc9a01a_fill_rect(obstacle.x+5,2,obstacle.y, obstacle.h-2, OBSTACLE_SHADE_3);
+  gc9a01a_fill_rect(obstacle.x+5,2,(bottom_obstacle_ystart+2),(bottom_obstacle_height-2), OBSTACLE_SHADE_3);
+
+  gc9a01a_fill_rect(obstacle.x+7,10,obstacle.y, obstacle.h-2, WHITE);
+  gc9a01a_fill_rect(obstacle.x+7,10,(bottom_obstacle_ystart+2),(bottom_obstacle_height-2), WHITE);
+
+  gc9a01a_fill_rect(obstacle.x+17,3,obstacle.y, obstacle.h-2, OBSTACLE_SHADE_3);
+  gc9a01a_fill_rect(obstacle.x+17,3,(bottom_obstacle_ystart+2),(bottom_obstacle_height-2), OBSTACLE_SHADE_3);
+
+  gc9a01a_fill_rect(obstacle.x+20,3,obstacle.y, obstacle.h-2, OBSTACLE_SHADE_2);
+  gc9a01a_fill_rect(obstacle.x+20,3,(bottom_obstacle_ystart+2),(bottom_obstacle_height-2), OBSTACLE_SHADE_2);
+
+  gc9a01a_fill_rect(obstacle.x+23,7,obstacle.y, obstacle.h-2, OBSTACLE_SHADE_1);
+  gc9a01a_fill_rect(obstacle.x+23,7,(bottom_obstacle_ystart+2),(bottom_obstacle_height-2), OBSTACLE_SHADE_1);
+
+  /* filling traces of obstacle */
+  gc9a01a_fill_rect((obstacle.x+30), obstacle.speed, obstacle.y,  obstacle.h, BACKGROUND);
+  gc9a01a_fill_rect((obstacle.x+30), obstacle.speed, bottom_obstacle_ystart, bottom_obstacle_height, BACKGROUND);
+#else
+  obstacle.h = generate_obstacle_height();
+  //obstacle.g = generate_obstacle_gap();
+  obstacle.speed = get_obstacle_speed();
+  obstacle.x -= obstacle.speed;
+  int bottom_obstacle_ystart =  obstacle.h + obstacle.y + obstacle.g;
+  int bottom_obstacle_height = OBSTACLE_yEND_POINT - bottom_obstacle_ystart;
+  if(obstacle.x >= 0 && obstacle.x <= 240) {
+    gc9a01a_fill_rect(obstacle.x, obstacle.w, obstacle.y, obstacle.h, OBSTACLE_SHADE);
+    gc9a01a_fill_rect(obstacle.x, obstacle.w, bottom_obstacle_ystart, bottom_obstacle_height, OBSTACLE_SHADE);
+
+    /* filling traces of obstacle */
+    gc9a01a_fill_rect((obstacle.x+obstacle.w), obstacle.speed, obstacle.y,  obstacle.h, BACKGROUND);
+    gc9a01a_fill_rect((obstacle.x+obstacle.w), obstacle.speed, bottom_obstacle_ystart, bottom_obstacle_height, BACKGROUND);
+  } else {
+    gc9a01a_fill_rect(0, 40, OBSTACLE_ySTART_POINT, OBSTACLE_yEND_POINT,BACKGROUND);
+    obstacle.x = 240;
+  }
+#endif
+}
+
+/**
+  * @brief  Move the obstacle on the LCD.
+  * @param  x: Position to move the obstacle to.
+  * @retval None
+  */
+void move_obstacle() {
+	display_obstacle();
+}
+
+/**
+  * @brief  Draw the background for the score card on the LCD.
+  * @retval None
+  */
+void score_card_background() {
+   gc9a01a_fill_rect(0, 240,0,26, SCORE_BOARD_SHADE_3);
+   gc9a01a_fill_rect( 0, 240,26,2, SCORE_BOARD_SHADE_2);
+   gc9a01a_fill_rect( 0, 240,28,2, SCORE_BOARD_SHADE_1);
+}
+
+/**
+  * @brief  Calculates the speed of obstacles based on the player's score.
+  * @param  score: The player's score.
+  * @retval uint8_t: The calculated obstacle speed.
+  */
+uint8_t get_obstacle_speed() {
+  int base_speed = 2;
+  float speed_increment = 0.25;
+
+  // Increase speed slightly for every 5 points
+  int level = player.score / 5;
+  return base_speed + (level * speed_increment);
+}
+

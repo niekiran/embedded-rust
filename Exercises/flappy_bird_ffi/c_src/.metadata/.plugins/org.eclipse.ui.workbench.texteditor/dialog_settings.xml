@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="display_fill_screen"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="display_fill_screen"/>
+			<item value="get_player_position"/>
+			<item value="render_gamestart_countdown"/>
+			<item value="OBSTACLE_SHADE_1"/>
+			<item value="display_gave_over"/>
+			<item value="display_final_score"/>
+			<item value="player_show_score"/>
+			<item value="show_player"/>
+			<item value="OBSTACLE_ySTART_POINT"/>
+			<item value="tick"/>
+			<item value="main"/>
+			<item value="tick()"/>
+			<item value="write_string"/>
+			<item value="FLAPPY_FONT1"/>
+			<item value="gc9a01a_write_char"/>
+		</list>
+		<list key="replacehistory">
+			<item value="lcd_driver"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="1054"/>
+		<item key="DIALOG_Y_ORIGIN" value="424"/>
+		<item key="DIALOG_WIDTH" value="414"/>
+		<item key="DIALOG_HEIGHT" value="454"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|5|0|Segoe UI"/>
+	</section>
+</section>

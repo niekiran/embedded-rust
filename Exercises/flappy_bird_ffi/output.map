@@ -1,0 +1,816 @@
+Archive member included to satisfy reference by file (symbol)
+
+D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+                              (Reset_Handler)
+D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+                              D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o) (SystemInit)
+D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+                              C:\Users\Admin\AppData\Local\Temp\rustcPuUEhN\symbols.o (rust_begin_unwind)
+C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (memset)
+C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+                              C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o) (compiler_builtins::mem::memset)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (exit)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o) (__stdio_exit_handler)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_fwalk_sglue)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (__sread)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_close_r)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o) (errno)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o) (_impure_ptr)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_lseek_r)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_read_r)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o) (_write_r)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o (__libc_init_array)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (__retarget_lock_init_recursive)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o) (_free_r)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_malloc_r)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o) (__malloc_lock)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o) (_fflush_r)
+C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+                              C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o) (_sbrk_r)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+ .data          0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .rodata        0x00000000       0x24 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .text          0x00000000       0x7c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.extab     0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.exidx     0x00000000       0x10 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .ARM.attributes
+                0x00000000       0x20 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+ .text          0x00000000       0x14 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .data          0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .bss           0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .group         0x00000000        0xc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .text          0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .data          0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .bss           0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .data.SystemCoreClock
+                0x00000000        0x4 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .rodata.AHBPrescTable
+                0x00000000       0x10 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .rodata.APBPrescTable
+                0x00000000        0x8 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000       0xe0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .text          0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .text.rust_begin_unwind
+                0x00000000        0x8 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .ARM.exidx.text.rust_begin_unwind
+                0x00000000        0x8 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .debug_abbrev  0x00000000      0x121 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .debug_info    0x00000000      0x648 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .debug_aranges
+                0x00000000       0x20 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .debug_str     0x00000000      0x54d D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .comment       0x00000000       0x2d D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .note.GNU-stack
+                0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .ARM.attributes
+                0x00000000       0x3a D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .debug_frame   0x00000000       0x28 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .debug_line    0x00000000       0x3f D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib(panic_halt-056cf5014930ef61.panic_halt.2cf256246f2f7823-cgu.0.rcgu.o)
+ .text          0x00000000        0x0 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .llvmbc        0x00000000      0xb08 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .llvmcmd       0x00000000        0x0 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .text.memset   0x00000000        0x4 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .ARM.exidx.text.memset
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .debug_abbrev  0x00000000       0x2e C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .debug_info    0x00000000       0x4b C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .debug_aranges
+                0x00000000       0x20 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .debug_str     0x00000000       0xd8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .comment       0x00000000       0x2d C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .ARM.attributes
+                0x00000000       0x3a C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .debug_frame   0x00000000       0x24 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .debug_line    0x00000000       0x42 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.298.rcgu.o)
+ .text          0x00000000        0x0 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .llvmbc        0x00000000     0x7e74 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .llvmcmd       0x00000000        0x0 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem6memcpy17he6b4d94386ad08c7E
+                0x00000000      0x148 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem6memcpy17he6b4d94386ad08c7E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem7memmove17h018fa5d340d85408E
+                0x00000000      0x33e C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem7memmove17h018fa5d340d85408E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem6memset17h7de5352086c3d964E
+                0x00000000       0x9c C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem6memset17h7de5352086c3d964E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem6memcmp17h4b13709dae1a96a5E
+                0x00000000       0x74 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem6memcmp17h4b13709dae1a96a5E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem4bcmp17h07f253e5a618644fE
+                0x00000000        0x4 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem4bcmp17h07f253e5a618644fE
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem6strlen17h036870247ce15501E
+                0x00000000       0x3a C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem6strlen17h036870247ce15501E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem40__llvm_memcpy_element_unordered_atomic_117h675af6f702fd3497E
+                0x00000000       0x76 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem40__llvm_memcpy_element_unordered_atomic_117h675af6f702fd3497E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem40__llvm_memcpy_element_unordered_atomic_217h4e045fcaf7128665E
+                0x00000000       0x98 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem40__llvm_memcpy_element_unordered_atomic_217h4e045fcaf7128665E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem40__llvm_memcpy_element_unordered_atomic_417h49a66a1ff25a60fdE
+                0x00000000       0x98 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem40__llvm_memcpy_element_unordered_atomic_417h49a66a1ff25a60fdE
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem41__llvm_memmove_element_unordered_atomic_117h3f1138e267e1218fE
+                0x00000000       0xc8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem41__llvm_memmove_element_unordered_atomic_117h3f1138e267e1218fE
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem41__llvm_memmove_element_unordered_atomic_217h35226f9b6ba5d27bE
+                0x00000000      0x102 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem41__llvm_memmove_element_unordered_atomic_217h35226f9b6ba5d27bE
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem41__llvm_memmove_element_unordered_atomic_417ha5172ba8dc5cad87E
+                0x00000000       0xf8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem41__llvm_memmove_element_unordered_atomic_417ha5172ba8dc5cad87E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem40__llvm_memset_element_unordered_atomic_117h79dfe964ba9c76e4E
+                0x00000000       0x5a C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem40__llvm_memset_element_unordered_atomic_117h79dfe964ba9c76e4E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem40__llvm_memset_element_unordered_atomic_217h004cccde4c678eceE
+                0x00000000       0x6a C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem40__llvm_memset_element_unordered_atomic_217h004cccde4c678eceE
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text._ZN17compiler_builtins3mem40__llvm_memset_element_unordered_atomic_417hb79ea4e210d2cf26E
+                0x00000000       0x72 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.exidx.text._ZN17compiler_builtins3mem40__llvm_memset_element_unordered_atomic_417hb79ea4e210d2cf26E
+                0x00000000        0x8 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .debug_abbrev  0x00000000       0xd4 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .debug_info    0x00000000      0x8e6 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .debug_aranges
+                0x00000000       0x90 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .debug_ranges  0x00000000      0x2f0 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .debug_str     0x00000000     0x1566 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .comment       0x00000000       0x2d C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .note.GNU-stack
+                0x00000000        0x0 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .ARM.attributes
+                0x00000000       0x3a C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .debug_frame   0x00000000      0x208 C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .debug_line    0x00000000      0xe4c C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib(compiler_builtins-44e380169a097313.compiler_builtins.53ae8a963f8499b9-cgu.007.rcgu.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .text.exit     0x00000000       0x24 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .debug_frame   0x00000000       0x28 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-exit.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.std      0x00000000       0x6c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.stdio_exit_handler
+                0x00000000       0x18 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.cleanup_stdio
+                0x00000000       0x40 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock
+                0x00000000       0x18 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock
+                0x00000000       0x18 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.global_stdio_init.part.0
+                0x00000000       0x3c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_acquire
+                0x00000000        0xc C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp_lock_release
+                0x00000000        0xc C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sfp    0x00000000       0xa4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__sinit  0x00000000       0x30 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_lock_all
+                0x00000000       0x1c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text.__fp_unlock_all
+                0x00000000       0x1c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .data.__sglue  0x00000000        0xc C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .bss.__sf      0x00000000      0x138 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .bss.__stdio_exit_handler
+                0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .debug_frame   0x00000000      0x144 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-findfp.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .text._fwalk_sglue
+                0x00000000       0x3c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .debug_frame   0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fwalk.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__sread  0x00000000       0x22 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__seofread
+                0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__swrite
+                0x00000000       0x38 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__sseek  0x00000000       0x24 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text.__sclose
+                0x00000000        0x8 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .debug_frame   0x00000000       0x88 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-stdio.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .text._close_r
+                0x00000000       0x20 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .debug_frame   0x00000000       0x2c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-closer.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .text._reclaim_reent
+                0x00000000       0xac C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .bss.errno     0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .debug_frame   0x00000000       0x38 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-reent.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .data._impure_ptr
+                0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .data._impure_data
+                0x00000000       0x4c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-impure.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .text._lseek_r
+                0x00000000       0x24 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .debug_frame   0x00000000       0x2c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lseekr.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .text._read_r  0x00000000       0x24 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .debug_frame   0x00000000       0x2c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-readr.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .text._write_r
+                0x00000000       0x24 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .debug_frame   0x00000000       0x2c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-writer.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_init_recursive
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_close_recursive
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_acquire_recursive
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire
+                0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_try_acquire_recursive
+                0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text.__retarget_lock_release_recursive
+                0x00000000        0x2 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___arc4random_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___dd_hash_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___tz_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___env_recursive_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___malloc_recursive_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___at_quick_exit_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___atexit_recursive_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .bss.__lock___sfp_recursive_mutex
+                0x00000000        0x1 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .debug_frame   0x00000000       0xb0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-lock.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .text._free_r  0x00000000       0x94 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .debug_frame   0x00000000       0x38 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-freer.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .text.sbrk_aligned
+                0x00000000       0x44 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .text._malloc_r
+                0x00000000      0x100 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_sbrk_start
+                0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .bss.__malloc_free_list
+                0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .debug_frame   0x00000000       0x50 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mallocr.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_lock
+                0x00000000        0xc C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .text.__malloc_unlock
+                0x00000000        0xc C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .debug_frame   0x00000000       0x30 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-mlock.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text.__sflush_r
+                0x00000000      0x108 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text._fflush_r
+                0x00000000       0x50 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text.fflush   0x00000000       0x28 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .debug_frame   0x00000000       0x5c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-fflush.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .text._sbrk_r  0x00000000       0x20 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .debug_frame   0x00000000       0x2c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-sbrkr.o)
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .rodata        0x00000000       0x24 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .eh_frame      0x00000000        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .ARM.attributes
+                0x00000000       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtend.o
+ .text          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .data          0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+ .bss           0x00000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+CCMRAM           0x10000000         0x00002000         xrw
+RAM              0x20000000         0x0000a000         xrw
+FLASH            0x08000000         0x00040000         xr
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD C:\Users\Admin\AppData\Local\Temp\rustcPuUEhN\symbols.o
+LOAD D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+LOAD D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a
+LOAD D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\libpanic_halt-056cf5014930ef61.rlib
+LOAD C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\librustc_std_workspace_core-c456381a8b8e35db.rlib
+LOAD C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcore-427ff03a8fcba738.rlib
+LOAD C:\Users\Admin\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\thumbv7em-none-eabihf\lib\libcompiler_builtins-44e380169a097313.rlib
+START GROUP
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+END GROUP
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtend.o
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x2000a000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+                0x00000200                        _Min_Heap_Size = 0x200
+                0x00000400                        _Min_Stack_Size = 0x400
+
+.isr_vector     0x08000000      0x188
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x188 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+                0x08000000                g_pfnVectors
+                0x08000188                        . = ALIGN (0x4)
+
+.text           0x08000188      0x11c
+                0x08000188                        . = ALIGN (0x4)
+ *(.text)
+ .text          0x08000188       0x40 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.text*)
+ .text.main     0x080001c8        0x4 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+                0x080001c8                main
+ .text.Reset_Handler
+                0x080001cc       0x50 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+                0x080001cc                Reset_Handler
+ .text.Default_Handler
+                0x0800021c        0x2 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+                0x0800021c                RTC_Alarm_IRQHandler
+                0x0800021c                TIM8_TRG_COM_IRQHandler
+                0x0800021c                TIM8_CC_IRQHandler
+                0x0800021c                DebugMon_Handler
+                0x0800021c                TIM1_CC_IRQHandler
+                0x0800021c                HardFault_Handler
+                0x0800021c                USB_HP_IRQHandler
+                0x0800021c                SysTick_Handler
+                0x0800021c                PVD_IRQHandler
+                0x0800021c                TAMP_STAMP_IRQHandler
+                0x0800021c                PendSV_Handler
+                0x0800021c                NMI_Handler
+                0x0800021c                EXTI3_IRQHandler
+                0x0800021c                USB_HP_CAN_TX_IRQHandler
+                0x0800021c                EXTI0_IRQHandler
+                0x0800021c                I2C2_EV_IRQHandler
+                0x0800021c                FPU_IRQHandler
+                0x0800021c                TIM1_UP_TIM16_IRQHandler
+                0x0800021c                UsageFault_Handler
+                0x0800021c                ADC1_2_IRQHandler
+                0x0800021c                SPI1_IRQHandler
+                0x0800021c                CAN_SCE_IRQHandler
+                0x0800021c                TIM6_DAC_IRQHandler
+                0x0800021c                TIM8_UP_IRQHandler
+                0x0800021c                DMA2_Channel2_IRQHandler
+                0x0800021c                DMA1_Channel4_IRQHandler
+                0x0800021c                USART3_IRQHandler
+                0x0800021c                DMA1_Channel7_IRQHandler
+                0x0800021c                UART5_IRQHandler
+                0x0800021c                ADC3_IRQHandler
+                0x0800021c                TIM4_IRQHandler
+                0x0800021c                CAN_RX1_IRQHandler
+                0x0800021c                DMA2_Channel1_IRQHandler
+                0x0800021c                I2C1_EV_IRQHandler
+                0x0800021c                DMA1_Channel6_IRQHandler
+                0x0800021c                UART4_IRQHandler
+                0x0800021c                DMA2_Channel4_IRQHandler
+                0x0800021c                TIM3_IRQHandler
+                0x0800021c                RCC_IRQHandler
+                0x0800021c                DMA1_Channel1_IRQHandler
+                0x0800021c                Default_Handler
+                0x0800021c                USBWakeUp_RMP_IRQHandler
+                0x0800021c                EXTI15_10_IRQHandler
+                0x0800021c                TIM7_IRQHandler
+                0x0800021c                EXTI9_5_IRQHandler
+                0x0800021c                RTC_WKUP_IRQHandler
+                0x0800021c                SPI2_IRQHandler
+                0x0800021c                USB_LP_CAN_RX0_IRQHandler
+                0x0800021c                MemManage_Handler
+                0x0800021c                SVC_Handler
+                0x0800021c                DMA2_Channel5_IRQHandler
+                0x0800021c                DMA1_Channel5_IRQHandler
+                0x0800021c                USB_LP_IRQHandler
+                0x0800021c                EXTI4_IRQHandler
+                0x0800021c                TIM1_TRG_COM_TIM17_IRQHandler
+                0x0800021c                DMA1_Channel3_IRQHandler
+                0x0800021c                ADC4_IRQHandler
+                0x0800021c                WWDG_IRQHandler
+                0x0800021c                TIM2_IRQHandler
+                0x0800021c                COMP7_IRQHandler
+                0x0800021c                COMP1_2_3_IRQHandler
+                0x0800021c                EXTI1_IRQHandler
+                0x0800021c                USART2_IRQHandler
+                0x0800021c                COMP4_5_6_IRQHandler
+                0x0800021c                I2C2_ER_IRQHandler
+                0x0800021c                DMA1_Channel2_IRQHandler
+                0x0800021c                TIM8_BRK_IRQHandler
+                0x0800021c                FLASH_IRQHandler
+                0x0800021c                BusFault_Handler
+                0x0800021c                USART1_IRQHandler
+                0x0800021c                SPI3_IRQHandler
+                0x0800021c                I2C1_ER_IRQHandler
+                0x0800021c                USBWakeUp_IRQHandler
+                0x0800021c                DMA2_Channel3_IRQHandler
+                0x0800021c                EXTI2_TSC_IRQHandler
+                0x0800021c                TIM1_BRK_TIM15_IRQHandler
+ *fill*         0x0800021e        0x2 
+ .text.SystemInit
+                0x08000220       0x24 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+                0x08000220                SystemInit
+ .text.__libc_init_array
+                0x08000244       0x48 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+                0x08000244                __libc_init_array
+ *(.glue_7)
+ .glue_7        0x0800028c        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x0800028c        0x0 linker stubs
+ *(.eh_frame)
+ .eh_frame      0x0800028c        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.init)
+ .init          0x0800028c        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x0800028c                _init
+ .init          0x08000290        0x8 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+ *(.fini)
+ .fini          0x08000298        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+                0x08000298                _fini
+ .fini          0x0800029c        0x8 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+                0x080002a4                        . = ALIGN (0x4)
+                0x080002a4                        _etext = .
+
+.vfp11_veneer   0x080002a4        0x0
+ .vfp11_veneer  0x080002a4        0x0 linker stubs
+
+.v4_bx          0x080002a4        0x0
+ .v4_bx         0x080002a4        0x0 linker stubs
+
+.iplt           0x080002a4        0x0
+ .iplt          0x080002a4        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.rodata         0x080002a4        0x0
+                0x080002a4                        . = ALIGN (0x4)
+ *(.rodata)
+ *(.rodata*)
+                0x080002a4                        . = ALIGN (0x4)
+
+.ARM.extab      0x080002a4        0x0
+                0x080002a4                        . = ALIGN (0x4)
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x080002a4                        . = ALIGN (0x4)
+
+.ARM            0x080002a4        0x8
+                0x080002a4                        . = ALIGN (0x4)
+                0x080002a4                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx.text.main
+                0x080002a4        0x8 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+                0x080002ac                        __exidx_end = .
+                0x080002ac                        . = ALIGN (0x4)
+
+.preinit_array  0x080002ac        0x0
+                0x080002ac                        . = ALIGN (0x4)
+                0x080002ac                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array*)
+                0x080002ac                        PROVIDE (__preinit_array_end = .)
+                0x080002ac                        . = ALIGN (0x4)
+
+.init_array     0x080002ac        0x4
+                0x080002ac                        . = ALIGN (0x4)
+                0x080002ac                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array*)
+ .init_array    0x080002ac        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                0x080002b0                        PROVIDE (__init_array_end = .)
+                0x080002b0                        . = ALIGN (0x4)
+
+.fini_array     0x080002b0        0x4
+                0x080002b0                        . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_NAME(.fini_array.*))
+ *(.fini_array*)
+ .fini_array    0x080002b0        0x4 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+                0x080002b4                        . = ALIGN (0x4)
+                0x080002b4                        _sidata = LOADADDR (.data)
+
+.rel.dyn        0x080002b4        0x0
+ .rel.iplt      0x080002b4        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.data           0x20000000        0x0 load address 0x080002b4
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data*)
+ *(.RamFunc)
+ *(.RamFunc*)
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _edata = .
+                0x080002b4                        _siccmram = LOADADDR (.ccmram)
+
+.igot.plt       0x20000000        0x0 load address 0x080002b4
+ .igot.plt      0x20000000        0x0 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+
+.ccmram         0x10000000        0x0 load address 0x080002b4
+                0x10000000                        . = ALIGN (0x4)
+                0x10000000                        _sccmram = .
+ *(.ccmram)
+ *(.ccmram*)
+                0x10000000                        . = ALIGN (0x4)
+                0x10000000                        _eccmram = .
+                0x10000000                        . = ALIGN (0x4)
+
+.bss            0x20000000       0x1c
+                0x20000000                        _sbss = .
+                0x20000000                        __bss_start__ = _sbss
+ *(.bss)
+ .bss           0x20000000       0x1c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ *(.bss*)
+ *(COMMON)
+                0x2000001c                        . = ALIGN (0x4)
+                0x2000001c                        _ebss = .
+                0x2000001c                        __bss_end__ = _ebss
+
+._user_heap_stack
+                0x2000001c      0x604
+                0x20000020                        . = ALIGN (0x8)
+ *fill*         0x2000001c        0x4 
+                [!provide]                        PROVIDE (end = .)
+                [!provide]                        PROVIDE (_end = .)
+                0x20000220                        . = (. + _Min_Heap_Size)
+ *fill*         0x20000020      0x200 
+                0x20000620                        . = (. + _Min_Stack_Size)
+ *fill*         0x20000220      0x400 
+                0x20000620                        . = ALIGN (0x8)
+
+/DISCARD/
+ libc.a(*)
+ libm.a(*)
+ libgcc.a(*)
+
+.ARM.attributes
+                0x00000000       0x36
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x22 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crti.o
+ .ARM.attributes
+                0x00000022       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtbegin.o
+ .ARM.attributes
+                0x00000056       0x3a D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+ .ARM.attributes
+                0x00000090       0x21 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .ARM.attributes
+                0x000000b1       0x34 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .ARM.attributes
+                0x000000e5       0x34 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x00000119       0x22 C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard/crtn.o
+OUTPUT(D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d elf32-littlearm)
+LOAD linker stubs
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc.a
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
+LOAD C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v7e-m+fp/hard\libgcc.a
+
+.debug_abbrev   0x00000000      0x16f
+ .debug_abbrev  0x00000000       0x31 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+ .debug_abbrev  0x00000031       0x24 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .debug_abbrev  0x00000055      0x11a D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+
+.debug_info     0x00000000      0x475
+ .debug_info    0x00000000       0x3e D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+ .debug_info    0x0000003e       0x30 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .debug_info    0x0000006e      0x407 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+
+.debug_aranges  0x00000000       0x70
+ .debug_aranges
+                0x00000000       0x20 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+ .debug_aranges
+                0x00000020       0x28 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .debug_aranges
+                0x00000048       0x28 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+
+.debug_str      0x00000000    0xa3231
+ .debug_str     0x00000000       0xa0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+                                 0xb0 (size before relaxing)
+ .debug_str     0x000000a0       0x99 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .debug_str     0x00000139    0xa30f8 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+                              0xa37bb (size before relaxing)
+
+.comment        0x00000000       0x6f
+ .comment       0x00000000       0x2c D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+                                 0x2d (size before relaxing)
+ .comment       0x0000002c       0x43 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+                                 0x44 (size before relaxing)
+
+.note.GNU-stack
+                0x00000000        0x0
+ .note.GNU-stack
+                0x00000000        0x0 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+
+.debug_frame    0x00000000       0xa8
+ .debug_frame   0x00000000       0x24 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+ .debug_frame   0x00000024       0x58 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_frame   0x0000007c       0x2c C:/ST/STM32CubeCLT_1.16.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libc_nano.a(libc_a-init.o)
+
+.debug_line     0x00000000      0x74e
+ .debug_line    0x00000000       0x3f D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\deps\flappy_bird_ffi-6e8304f95336045d.dw8xwvvec2tniu76wo99bdst3.rcgu.o
+ .debug_line    0x0000003f       0x7a D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .debug_line    0x000000b9      0x695 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+
+.debug_line_str
+                0x00000000       0x7d
+ .debug_line_str
+                0x00000000       0x7d D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+
+.debug_rnglists
+                0x00000000       0x33
+ .debug_rnglists
+                0x00000000       0x19 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(7088bd2fc11bfdcf-startup_stm32f303cctx.o)
+ .debug_rnglists
+                0x00000019       0x1a D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+
+.debug_macro    0x00000000    0x1a9cc
+ .debug_macro   0x00000000      0x1af D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x000001af      0xab4 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000c63       0x2e D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000c91       0x28 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000cb9       0x22 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000cdb       0x8e D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000d69       0x51 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000dba      0x103 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000ebd       0x6a D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00000f27      0x1df D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00001106       0x1c D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00001122       0x22 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00001144       0xd9 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0000121d     0x102d D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0000224a      0x11f D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00002369    0x12a3a D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00014da3       0x6d D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00014e10      0x14b D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00014f5b     0x3574 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x000184cf      0x189 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00018658       0x55 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x000186ad      0x961 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001900e      0x5fe D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001960c      0x1b5 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x000197c1      0x1fb D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x000199bc      0x1dc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00019b98      0x1bc D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00019d54       0x30 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00019d84       0x3c D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00019dc0      0x235 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x00019ff5       0xc5 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001a0ba      0x21d D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001a2d7      0x22c D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001a503       0x5b D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001a55e       0xa5 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001a603       0x81 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001a684       0xd3 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)
+ .debug_macro   0x0001a757      0x275 D:\fastbit\courses\embedded-rust\examples\flappy_bird_ffi\target\thumbv7em-none-eabihf\debug\build\flappy-bird-ffi-c6a4d913ec87ae1e\out\libstm32_c_drivers.a(d2c7e04def0a0aea-system_stm32f3xx.o)

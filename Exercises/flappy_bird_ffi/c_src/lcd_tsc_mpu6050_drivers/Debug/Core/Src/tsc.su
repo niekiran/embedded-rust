@@ -1,0 +1,9 @@
+../Core/Src/tsc.c:24:13:CST816S_i2c_read	40	static
+../Core/Src/tsc.c:36:13:CST816S_i2c_write	40	static
+../Core/Src/tsc.c:44:6:CST816S_read_touch	40	static
+../Core/Src/tsc.c:61:20:CST816S_get_data	4	static
+../Core/Src/tsc.c:70:6:HAL_GPIO_EXTI_Callback	16	static
+../Core/Src/tsc.c:76:6:CST816S_hw_reset	8	static
+../Core/Src/tsc.c:90:6:CST816S_init	24	static
+../Core/Src/tsc.c:109:9:CST816S_data_available	24	static
+../Core/Src/tsc.c:129:13:CST816S_gesture	4	static
