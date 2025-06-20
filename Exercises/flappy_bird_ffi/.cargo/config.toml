@@ -10,3 +10,5 @@ rustflags = [
     "-C", "link-arg=-mfpu=fpv4-sp-d16",
     "-C", "link-arg=-mfloat-abi=hard",
  ]
+
+ runner    = "probe-rs run --chip STM32F303CC"

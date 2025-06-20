@@ -10,6 +10,7 @@ pub struct Obstacle {
     speed: u32,
     height_top: u32,
     height_btm: u32,
+     pub already_scored: bool,
 }
 
 impl Obstacle {
@@ -19,9 +20,10 @@ impl Obstacle {
             y_top: 0 + SCORE_BOARD_HEIGHT as Coord,
             x_btm: 240,
             y_btm: 180,
-            speed: 1,
+            speed: SPEED,
             height_top: 100,
             height_btm: 60 - PLANTS_HEIGHT,
+            already_scored:  false,
         }
     }
 
@@ -79,6 +81,7 @@ impl Obstacle {
 
         if self.x_top <= LCD_BIGIN {
             self.x_top = LCD_END;
+            self.already_scored = false;
         }
 
         if self.x_btm <= LCD_BIGIN {

@@ -19,9 +19,15 @@ impl Player {
         }
     }
 
-    pub fn move_player(&mut self) {
+    pub fn move_player(&mut self, new_y: Coord) {
         let old_y = self.y;
-        self.y += GRAVITY;
+
+        if old_y == new_y {
+            self.y += GRAVITY;
+        } else {
+            self.y = new_y;
+        }
+        
         self.draw();
         self.clear(old_y);
     }

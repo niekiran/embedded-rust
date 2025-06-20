@@ -20,3 +20,11 @@ pub const PLAYER_HEIGHT: u32 = 30;
 pub const GRAVITY: i32 = 0;
 
 pub const GROUND_Y_POS: Coord = 210;
+
+
+pub const MPU6050_DEV_ADDR: u8 = 0x68;
+
+pub const PLAYER_Y_MIN: Coord = SCORE_BOARD_HEIGHT as Coord;
+pub const PLAYER_Y_MAX: Coord = (LCD_HEIGHT - PLANTS_HEIGHT - PLAYER_HEIGHT) as Coord;
+
+pub const SPEED: u32 = 2;

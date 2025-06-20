@@ -1,0 +1,12 @@
+[package]
+name = "embedded_hal_mpu6050_driver"
+version = "0.1.0"
+edition = "2024"
+
+[features]
+default = ["use_std"]
+use_std = []
+
+[dependencies]
+embedded-hal = "1.0.0"
+#embedded-hal = "0.2.7"
