@@ -63,8 +63,8 @@ fn main() {
         .flag("-ffunction-sections")
         .flag("-fdata-sections")
         .flag("-Wall")
-        .flag("-fstack-usage")
-        .flag("-fcyclomatic-complexity");
+        .flag("-fstack-usage");
+        //.flag("-fcyclomatic-complexity");
     // .flag("-flto");
 
     //7 . Add linker flags
