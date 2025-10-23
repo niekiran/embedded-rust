@@ -13,7 +13,7 @@
 #define GC9A01A_BUS_SPI         1
 #define GC9A01A_BUS_8B_PARALLEL 2
 
-#define GC9A01A_BUS_MODE        GC9A01A_BUS_SPI
+#define GC9A01A_BUS_MODE        GC9A01A_BUS_8B_PARALLEL
 
 #define GC9A01A_WIDTH           240
 #define GC9A01A_HEIGHT          240
