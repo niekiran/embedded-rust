@@ -8,7 +8,7 @@
 
 // gc9a01a.c
 #include "display.h"
-#include <stdio.h>  // For demonstration purposes
+#include <stdio.h>
 #include "gc9a01a.h"
 
 static void gc9a01a_hw_reset(void);
@@ -24,11 +24,13 @@ static void gc9a01a_set_orientation(uint8_t orientation);
 
 static void gc9a01a_init(void) {
     // Hardware-specific initialization code for the GC9A01A
+#if (GC9A01A_BUS_MODE == GC9A01A_BUS_8B_PARALLEL)
     GC9A01A_BL_ON;
     GC9A01A_RD_HIGH;
-    gc9a01a_hw_reset();
-    gc9a01a_configure();
-    gc9a01a_set_orientation(LANDSCAPE);
+#endif
+	gc9a01a_hw_reset();
+	gc9a01a_configure();
+	gc9a01a_set_orientation(LANDSCAPE);
 }
 
 /**
@@ -42,31 +44,31 @@ static void gc9a01a_init(void) {
   * @retval None
   */
 
-  void gc9a01a_write_string(uint16_t x, uint16_t y, const char* str, FontDef font, uint16_t color, uint16_t bgcolor) {
-    //GC9A01A_CS_LOW;
-  
-    while(*str) {
-      if(x + font.width >= GC9A01A_WIDTH) {
-        x = 0;
-        y += font.height;
-        if(y + font.height >= GC9A01A_HEIGHT) {
-          break;
-        }
-  
-        if(*str == ' ') {
-          // skip spaces in the beginning of the new line
-          str++;
-          continue;
-        }
-      }
-  
-      gc9a01a_write_char(x, y, *str, font, color, bgcolor);
-      x += font.width;
-      str++;
-    }
-  
-    //GC9A01A_CS_HIGH;
+void gc9a01a_write_string(uint16_t x, uint16_t y, const char* str, FontDef font, uint16_t color, uint16_t bgcolor) {
+//GC9A01A_CS_LOW;
+
+while(*str) {
+  if(x + font.width >= GC9A01A_WIDTH) {
+	x = 0;
+	y += font.height;
+	if(y + font.height >= GC9A01A_HEIGHT) {
+	  break;
+	}
+
+	if(*str == ' ') {
+	  // skip spaces in the beginning of the new line
+	  str++;
+	  continue;
+	}
   }
+
+  gc9a01a_write_char(x, y, *str, font, color, bgcolor);
+  x += font.width;
+  str++;
+}
+
+//GC9A01A_CS_HIGH;
+}
 
 
 /**
@@ -80,53 +82,53 @@ static void gc9a01a_init(void) {
   * @retval None
   */
 static void gc9a01a_write_char(uint16_t x, uint16_t y, char ch, FontDef font, uint16_t color, uint16_t bgcolor) {
-    // Send character to display hardware
-	   uint32_t i, b, j;
+  // Send character to display hardware
+	uint32_t i, b, j;
 
-	   gc9a01a_set_address_window(x, x+font.width-1, y, y+font.height-1);
+	gc9a01a_set_address_window(x, x+font.width-1, y, y+font.height-1);
 
-	   for(i = 0; i < font.height; i++) {
-	     b = font.data[(ch - 32) * font.height + i];
-	     for(j = 0; j < font.width; j++) {
-	       if((b << j) & 0x8000)  {
-	         uint8_t data[] = { color >> 8, color & 0xFF };
-	         gc9a01a_write_data(data, sizeof(data));
-	       } else {
-	         uint8_t data[] = { bgcolor >> 8, bgcolor & 0xFF };
-	         gc9a01a_write_data(data, sizeof(data));
-	       }
-	     }
-	   }
+	for(i = 0; i < font.height; i++) {
+    b = font.data[(ch - 32) * font.height + i];
+    for(j = 0; j < font.width; j++) {
+      if((b << j) & 0x8000)  {
+      uint8_t data[] = { color >> 8, color & 0xFF };
+      gc9a01a_write_data(data, sizeof(data));
+      } else {
+        uint8_t data[] = { bgcolor >> 8, bgcolor & 0xFF };
+        gc9a01a_write_data(data, sizeof(data));
+      }
+    }
+	}
 }
 
 
-/**
-   * @brief  Draw an image on the GC9A01A LCD
-   * @param  x: Start column address
-   * @param  w: Width of the image
-   * @param  y: Start row address
-   * @param  h: Height of the image
-   * @param  data: Pointer to the image data (RGB565 format)
-   * @retval None
-   */
+/*
+ * @brief  Draw an image on the GC9A01A LCD
+ * @param  x: Start column address
+ * @param  w: Width of the image
+ * @param  y: Start row address
+ * @param  h: Height of the image
+ * @param  data: Pointer to the image data (RGB565 format)
+ * @retval None
+ */
 static void gc9a01a_draw_image(
 		uint16_t x, uint16_t w, uint16_t y, uint16_t h, const uint16_t* img_data
 		)
 {
-    // Draw an image on the display
-	if ((x >= GC9A01A_WIDTH) || (y >= GC9A01A_HEIGHT)) return;
-	   if ((x + w - 1) >= GC9A01A_WIDTH) w = GC9A01A_HEIGHT - x;
-	   if ((y + h - 1) >= GC9A01A_WIDTH) h = GC9A01A_HEIGHT - y;
-	   //GC9A01A_CS_LOW;
-	   gc9a01a_set_address_window(x, (x+w-1), y, (y+h-1));
+// Draw an image on the display
+if ((x >= GC9A01A_WIDTH) || (y >= GC9A01A_HEIGHT)) return;
+   if ((x + w - 1) >= GC9A01A_WIDTH) w = GC9A01A_HEIGHT - x;
+   if ((y + h - 1) >= GC9A01A_WIDTH) h = GC9A01A_HEIGHT - y;
+   //GC9A01A_CS_LOW;
+   gc9a01a_set_address_window(x, (x+w-1), y, (y+h-1));
 
-	   for (uint32_t i = 0; i < w * h; i++) {
-	     uint8_t color_high = (img_data[i] >> 8) & 0xFF;
-	     uint8_t color_low = img_data[i] & 0xFF;
-	     GC9A01A_WRITE_8BIT(color_high);
-	     GC9A01A_WRITE_8BIT(color_low);
-	   }
-	   //GC9A01A_CS_HIGH;
+   for (uint32_t i = 0; i < w * h; i++) {
+	 uint8_t color_high = (img_data[i] >> 8) & 0xFF;
+	 uint8_t color_low = img_data[i] & 0xFF;
+	 GC9A01A_WRITE_BYTE(color_high);
+	 GC9A01A_WRITE_BYTE(color_low);
+   }
+   //GC9A01A_CS_HIGH;
 }
 
 /**
@@ -147,17 +149,17 @@ static void gc9a01a_fill_screen(uint16_t color) {
   * @retval None
   */
 static void gc9a01a_draw_pixel(uint16_t x, uint16_t y, uint16_t color) {
-    // Draw a single pixel on the display
-	  if((x >= GC9A01A_WIDTH) || (y >= GC9A01A_HEIGHT))
-	     return;
+  // Draw a single pixel on the display
+  if((x >= GC9A01A_WIDTH) || (y >= GC9A01A_HEIGHT))
+    return;
 
-	   //GC9A01A_CS_LOW;
+  //GC9A01A_CS_LOW;
 
-	   gc9a01a_set_address_window(x, y, x+1, y+1);
-	   uint8_t data[] = { color >> 8, color & 0xFF };
-	   gc9a01a_write_data(data, sizeof(data));
+  gc9a01a_set_address_window(x, y, x+1, y+1);
+  uint8_t data[] = { color >> 8, color & 0xFF };
+  gc9a01a_write_data(data, sizeof(data));
 
-	   //GC9A01A_CS_HIGH;
+  //GC9A01A_CS_HIGH;
 }
 
 /**
@@ -537,14 +539,29 @@ static void gc9a01a_fill_rect(uint16_t x, uint16_t w, uint16_t y, uint16_t h, ui
   if((y + h - 1) >= BSP_LCD_ACTIVE_HEIGHT) h = BSP_LCD_ACTIVE_HEIGHT - y;
   //GC9A01A_CS_LOW;
   gc9a01a_set_address_window(x,(x+w-1), y, (y+h-1));
+#if (GC9A01A_BUS_MODE == GC9A01A_BUS_8B_PARALLEL)
   uint8_t data[] = { color >> 8, color & 0xFF };
 
   for(y = h; y > 0; y--) {
     for(x = w; x > 0; x--) {
-      GC9A01A_WRITE_8BIT(data[0]);
-      GC9A01A_WRITE_8BIT(data[1]);
+      GC9A01A_WRITE_BYTE(data[0]);
+      GC9A01A_WRITE_BYTE(data[1]);
     }
   }
+#else
+  uint8_t buffer[512];
+	for (uint32_t i = 0; i < sizeof(buffer); i += 2) {
+	 buffer[i]   = color >> 8;
+	 buffer[i+1] = color & 0xFF;
+	}
+
+	uint32_t total_pixels = w * h;
+	while (total_pixels > 0) {
+	 uint32_t chunk = (total_pixels > (sizeof(buffer)/2)) ? (sizeof(buffer)/2) : total_pixels;
+	 HAL_SPI_Transmit(&hspi1, buffer, chunk*2, HAL_MAX_DELAY);
+	 total_pixels -= chunk;
+	}
+#endif
   //GC9A01A_CS_HIGH;
 }
 
@@ -559,25 +576,25 @@ static void gc9a01a_fill_rect(uint16_t x, uint16_t w, uint16_t y, uint16_t h, ui
 static void gc9a01a_set_address_window(uint16_t x0, uint16_t x1, uint16_t y0, uint16_t y1) {
   // Send commands to set column address (x2 to x2)
   GC9A01A_DC_CMD;
-  GC9A01A_WRITE_8BIT(GC9A01A_CASET); // Column address set command
+  GC9A01A_WRITE_BYTE(GC9A01A_CASET); // Column address set command
   GC9A01A_DC_DATA;
-  GC9A01A_WRITE_8BIT((uint8_t)(x0 >> 8));
-  GC9A01A_WRITE_8BIT((uint8_t)x0);
-  GC9A01A_WRITE_8BIT((uint8_t)(x1 >> 8));
-  GC9A01A_WRITE_8BIT((uint8_t)x1);
+  GC9A01A_WRITE_BYTE((uint8_t)(x0 >> 8));
+  GC9A01A_WRITE_BYTE((uint8_t)x0);
+  GC9A01A_WRITE_BYTE((uint8_t)(x1 >> 8));
+  GC9A01A_WRITE_BYTE((uint8_t)x1);
 
   // Send commands to set row address (y2 to y2)
   GC9A01A_DC_CMD;
-  GC9A01A_WRITE_8BIT(GC9A01A_RASET); // Row address set command
+  GC9A01A_WRITE_BYTE(GC9A01A_RASET); // Row address set command
   GC9A01A_DC_DATA;
-  GC9A01A_WRITE_8BIT((uint8_t)(y0 >> 8));
-  GC9A01A_WRITE_8BIT((uint8_t)y0);
-  GC9A01A_WRITE_8BIT((uint8_t)(y1 >> 8));
-  GC9A01A_WRITE_8BIT((uint8_t)y1);
+  GC9A01A_WRITE_BYTE((uint8_t)(y0 >> 8));
+  GC9A01A_WRITE_BYTE((uint8_t)y0);
+  GC9A01A_WRITE_BYTE((uint8_t)(y1 >> 8));
+  GC9A01A_WRITE_BYTE((uint8_t)y1);
 
   // Send command to write to RAM
   GC9A01A_DC_CMD;
-  GC9A01A_WRITE_8BIT(GC9A01A_RAMWR); // Write to RAM command
+  GC9A01A_WRITE_BYTE(GC9A01A_RAMWR); // Write to RAM command
   GC9A01A_DC_DATA;
 }
 
@@ -589,7 +606,7 @@ static void gc9a01a_set_address_window(uint16_t x0, uint16_t x1, uint16_t y0, ui
   */
 static void gc9a01a_write_cmd(uint8_t cmd) {
   GC9A01A_DC_CMD;
-  GC9A01A_WRITE_8BIT(cmd);
+  GC9A01A_WRITE_BYTE(cmd);
 }
 
 
@@ -602,9 +619,18 @@ static void gc9a01a_write_cmd(uint8_t cmd) {
 static void gc9a01a_write_data(uint8_t* buff, uint32_t buff_size) {
   GC9A01A_DC_DATA;
 
-  for(uint32_t i = 0; i < buff_size; i++) {
-    GC9A01A_WRITE_8BIT(buff[i]);
+#if (GC9A01A_BUS_MODE == GC9A01A_BUS_SPI)
+  while (buff_size > 0) {
+	  uint16_t chunk_size = buff_size > 32768 ? 32768 : buff_size;
+	  HAL_SPI_Transmit(&hspi1, buff, chunk_size, HAL_MAX_DELAY);
+	  buff += chunk_size;
+	  buff_size -= chunk_size;
   }
+#elif (GC9A01A_BUS_MODE == GC9A01A_BUS_8B_PARALLEL)
+  for(uint32_t i = 0; i < buff_size; i++) {
+    GC9A01A_WRITE_BYTE(buff[i]);
+  }
+#endif
 }
 
 /**
@@ -648,8 +674,8 @@ static void gc9a01a_lcd_fill_image(const uint16_t* data){
 
 //   for(y = h; y > 0; y--) {
 //     for(x = w; x > 0; x--) {
-//       GC9A01A_WRITE_8BIT(data[0]);
-//       GC9A01A_WRITE_8BIT(data[1]);
+//       GC9A01A_WRITE_BYTE(data[0]);
+//       GC9A01A_WRITE_BYTE(data[1]);
 //     }
 //   }
 //   //GC9A01A_CS_HIGH;
@@ -663,6 +689,6 @@ const display_driver_t gc9a01a_driver = {
   .draw_image = gc9a01a_draw_image,
   .fill_screen = gc9a01a_fill_screen,
   .draw_pixel = gc9a01a_draw_pixel,
-.set_orientation = gc9a01a_set_orientation,
-.fill_rectangle = gc9a01a_fill_rect,
+  .set_orientation = gc9a01a_set_orientation,
+  .fill_rectangle = gc9a01a_fill_rect,
 };

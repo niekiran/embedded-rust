@@ -1,0 +1,15 @@
+../Core/Src/mpu6050.c:15:19:mpu6050_read_byte	1
+../Core/Src/mpu6050.c:23:19:mpu6050_read	1
+../Core/Src/mpu6050.c:33:19:mpu6050_write_byte	1
+../Core/Src/mpu6050.c:41:19:mpu6050_init	5
+../Core/Src/mpu6050.c:69:19:mpu6050_read_accelerometer_data	2
+../Core/Src/mpu6050.c:86:23:mpu6050_accelerometer_calibration	1
+../Core/Src/mpu6050.c:102:19:mpu6050_configure_low_pass_filter	3
+../Core/Src/mpu6050.c:126:19:mpu6050_interrupt_config	2
+../Core/Src/mpu6050.c:142:19:mpu6050_enable_interrupt	2
+../Core/Src/mpu6050.c:153:19:mpu6050_disable_interrupt	2
+../Core/Src/mpu6050.c:164:26:get_interrupt_status	1
+../Core/Src/mpu6050.c:170:26:get_interrupt_settings	1
+../Core/Src/mpu6050.c:176:7:mpu6050_interrupt_handle	5
+../Core/Src/mpu6050.c:193:14:mpu6050_motion_detection_callback	1
+../Core/Src/mpu6050.c:198:14:mpu6050_raw_data_ready_callback	1

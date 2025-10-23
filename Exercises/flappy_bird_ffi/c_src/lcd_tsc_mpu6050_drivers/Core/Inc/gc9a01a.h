@@ -10,18 +10,23 @@
 #include <font.h>
 #include "main.h"
 
-#define GC9A01A_WIDTH   240
-#define GC9A01A_HEIGHT  240
+#define GC9A01A_BUS_SPI         1
+#define GC9A01A_BUS_8B_PARALLEL 2
 
-#define PORTRAIT        0
-#define LANDSCAPE       1
+#define GC9A01A_BUS_MODE        GC9A01A_BUS_SPI
+
+#define GC9A01A_WIDTH           240
+#define GC9A01A_HEIGHT          240
+
+#define PORTRAIT                0
+#define LANDSCAPE               1
 
 #if(BSP_LCD_ORIENTATION == PORTRAIT)
-    #define  BSP_LCD_ACTIVE_WIDTH           GC9A01A_WIDTH
-    #define  BSP_LCD_ACTIVE_HEIGHT          GC9A01A_HEIGHT
+  #define  BSP_LCD_ACTIVE_WIDTH           GC9A01A_WIDTH
+  #define  BSP_LCD_ACTIVE_HEIGHT          GC9A01A_HEIGHT
 #elif(BSP_LCD_ORIENTATION == LANDSCAPE)
-    #define  BSP_LCD_ACTIVE_WIDTH           GC9A01A_HEIGHT
-    #define  BSP_LCD_ACTIVE_HEIGHT          GC9A01A_WIDTH
+  #define  BSP_LCD_ACTIVE_WIDTH           GC9A01A_HEIGHT
+  #define  BSP_LCD_ACTIVE_HEIGHT          GC9A01A_WIDTH
 #endif
 
 /********************** GC9A01A commands **********************/
@@ -101,36 +106,23 @@
 #define PINK                    0xF81F  ///< RGB: 255, 0, 255
 #define GC9A01A_COLOR565(r, g, b) (((r & 0xF8) << 8) | ((g & 0xFC) << 3) | ((b & 0xF8) >> 3))
 
+#define GC9A01A_BL_ON           (LCD_BL_A_GPIO_Port->BSRR = LCD_BL_A_Pin)
 
-#define BL_A_GPIO_Port 		LCD_BL_A_GPIO_Port
-#define DCX_GPIO_Port  		LCD_DCX_GPIO_Port
-//#define LCD_CSX_GPIO_Port 	LCD_CSX_GPIO_Port
-#define LCD_RST_GPIO_Port 	LCD_RESET_GPIO_Port
-#define WRD_GPIO_Port 		LCD_WRX_GPIO_Port
-
-#define DCX_Pin 			LCD_DCX_Pin
-#define BL_A_Pin 			LCD_BL_A_Pin
-//#define LCD_CSX_Pin 		LCD_CSX_Pin
-#define LCD_RST_Pin 		LCD_RESET_Pin
-#define WRD_Pin				LCD_WRX_Pin
-
-#define GC9A01A_BL_ON           (BL_A_GPIO_Port->BSRR = BL_A_Pin)
-
-#define GC9A01A_DC_CMD          (DCX_GPIO_Port->BSRR = (DCX_Pin << 16)) // Reset pin
-#define GC9A01A_DC_DATA         (DCX_GPIO_Port->BSRR = DCX_Pin) // Set pin
+#define GC9A01A_DC_CMD          (LCD_DCX_GPIO_Port->BSRR = (LCD_DCX_Pin << 16)) // Reset pin
+#define GC9A01A_DC_DATA         (LCD_DCX_GPIO_Port->BSRR = LCD_DCX_Pin) // Set pin
 
 #define GC9A01A_CS_LOW          (LCD_CSX_GPIO_Port->BSRR = (LCD_CSX_Pin << 16)) // Reset pin
 #define GC9A01A_CS_HIGH         (LCD_CSX_GPIO_Port->BSRR = LCD_CSX_Pin) // Set pin
 
-#define GC9A01A_RST_LOW         (LCD_RST_GPIO_Port->BSRR = (LCD_RST_Pin << 16)) // Reset pin
-#define GC9A01A_RST_HIGH        (LCD_RST_GPIO_Port->BSRR = LCD_RST_Pin) // Set pin
+#define GC9A01A_RST_LOW         (LCD_RESET_GPIO_Port->BSRR = (LCD_RESET_Pin << 16)) // Reset pin
+#define GC9A01A_RST_HIGH        (LCD_RESET_GPIO_Port->BSRR = LCD_RESET_Pin) // Set pin
 
 #define GC9A01A_RD_LOW          (LCD_RDX_GPIO_Port->BSRR = (LCD_RDX_Pin << 16)) // Reset pin
 #define GC9A01A_RD_HIGH         (LCD_RDX_GPIO_Port->BSRR = LCD_RDX_Pin) // Set pin
 #define GC9A01A_RD_STROBE       { GC9A01A_RD_LOW; GC9A01A_RD_HIGH; }
 
-#define GC9A01A_WR_LOW          (WRD_GPIO_Port->BSRR = (WRD_Pin << 16)) // Reset pin
-#define GC9A01A_WR_HIGH         (WRD_GPIO_Port->BSRR = WRD_Pin) // Set pin
+#define GC9A01A_WR_LOW          (LCD_WRX_GPIO_Port->BSRR = (LCD_WRX_Pin << 16)) // Reset pin
+#define GC9A01A_WR_HIGH         (LCD_WRX_GPIO_Port->BSRR = LCD_WRX_Pin) // Set pin
 #define GC9A01A_WR_STROBE       { GC9A01A_WR_LOW; GC9A01A_WR_HIGH; }
 
 //#define GC9A01A_TE_LOW          (LCD_TE_GPIO_Port->BSRR = (LCD_TE_Pin << 16)) // Reset pin
@@ -149,28 +141,18 @@
   GC9A01A_WR_STROBE; \
 }
 
-#define GC9A01A_WRITE_8BIT_1(d) { \
-  /* Clear PA9 and PA10 */ \
-  GPIOA->BSRR = (0b0000011000000000 << 16); \
-  /* Clear PB8 to PB13 */ \
-  GPIOB->BSRR = (0b1111110000000000 << 16); \
-  \
-  /* Set PA10 and PA9 based on d's bit 0 and bit 1 */ \
-  GPIOA->BSRR = ((d & (1 << 0)) ? (1 << 10) : 0)  /* PA10 = d[0] */ \
-              | ((d & (1 << 1)) ? (1 << 9) : 0);  /* PA9 = d[1] */ \
-  \
-  /* Set PB8 to PB13 based on d's bit 2 to bit 7 */ \
-  GPIOB->BSRR = ((d & (1 << 2)) ? (1 << 8) : 0)   /* PB8 = d[2] */ \
-              | ((d & (1 << 3)) ? (1 << 9) : 0)   /* PB9 = d[3] */ \
-              | ((d & (1 << 4)) ? (1 << 10) : 0)  /* PB10 = d[4] */ \
-              | ((d & (1 << 5)) ? (1 << 11) : 0)  /* PB11 = d[5] */ \
-              | ((d & (1 << 6)) ? (1 << 12) : 0)  /* PB12 = d[6] */ \
-              | ((d & (1 << 7)) ? (1 << 13) : 0); /* PB13 = d[7] */ \
-  \
-  /* Strobe function (assuming it latches data) */ \
-  GC9A01A_WR_STROBE; \
-}
 
+#if (GC9A01A_BUS_MODE == GC9A01A_BUS_SPI)
+  /********************** SPI handle **********************/
+  extern SPI_HandleTypeDef hspi1; // SPI1 handle defined in main.c or elsewhere
+  #define GC9A01A_WRITE_BYTE(data)   do {          \
+      uint8_t _d = (data);                         \
+      HAL_SPI_Transmit(&hspi1, &_d, 1, HAL_MAX_DELAY); \
+  } while(0)
+
+#elif (GC9A01A_BUS_MODE == GC9A01A_BUS_8B_PARALLEL)
+  #define GC9A01A_WRITE_BYTE(data)  GC9A01A_WRITE_8BIT(data)
+#endif
 
 
 #endif 
